@@ -16,10 +16,15 @@ main.scss <- main practice>
 
 ##  sass (indented way of writing wo braces and semicolon)
 
-## scss features
+## scss features (not written coresponding with links in html file)
 1. nested properties like flex {direction} & font{size}.
 2. variables stores; sizing keywords, whitespaced list & maps.
 3. nesting selectors.
 4. & or the parent selector.
 5. forwardslash comment.
 6. builtin functions like; rgb', red', mix', hsl', hue', darken', desaturate', grayscale', invert', fade-in', transparentize', where '=().
+7. simple arithmetics.
+8. partials less httpreq.
+9. nested meditaquery.
+10. inheritence @extend .class.
+11. mixin @mixin, mixin injection @include with dynamic parameter ($width) and injected content @content.
