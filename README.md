@@ -24,7 +24,7 @@ main.scss <- main practice>
 5. forwardslash comment.
 6. builtin functions like; rgb', red', mix', hsl', hue', darken', desaturate', grayscale', invert', fade-in', transparentize', where '=().
 7. simple arithmetics.
-8. partials less httpreq.
-9. nested meditaquery.
+8. partials less httpreq. import 'typo.css' will leave it as css file containing import url('typo.css')
+9. mediaquery nested under another rule. N.B. rule => .selector { declaration (property: value) }
 10. inheritence @extend .class.
 11. mixin @mixin, mixin injection @include with dynamic parameter ($width) and injected content @content.
