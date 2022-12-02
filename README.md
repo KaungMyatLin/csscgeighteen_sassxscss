@@ -26,5 +26,5 @@ main.scss <- main practice>
 7. simple arithmetics.
 8. partials less httpreq. import 'typo.css' will leave it as css file containing import url('typo.css')
 9. mediaquery nested under another rule. N.B. rule => .selector { declaration (property: value) }
-10. inheritence @extend .class. ".selector1 .sel2" {} then, .sel3 {@extend}. @extend can't used in @media{}.
+10. inheritence @extend .selector. if .sel1{} .sel2{@extend .sel1}, then css is ".sel1 .sel2"{}. @extend can't used in @media{}.
 11. mixin @mixin, mixin injection @include with dynamic parameter ($width) and injected content @content. "@mixin name()"{} then, .sel3 {@content}.
